@@ -95,7 +95,7 @@ class Ghost
     ghost = "GHOST"
 
     @losses.each do|k, v| 
-      puts "#{k}: #{ghost[0...v]}"
+      puts "#{k}: #{ghost[0...v]}".yellow
     end
   end
 
